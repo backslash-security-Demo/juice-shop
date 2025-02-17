@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_backslash_security_Demo_juice_shop_1739788767928-pr-trigger-input-set
+  identifier: Build_backslash_security_Demo_juice_shop_1739788767928prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_backslash_security_Demo_juice_shop_1739788767928
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
