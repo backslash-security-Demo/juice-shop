@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_backslash_security_Demo_juice_shop_1739788767928-push-trigger-input-set
+  identifier: Build_backslash_security_Demo_juice_shop_1739788767928pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_backslash_security_Demo_juice_shop_1739788767928
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
